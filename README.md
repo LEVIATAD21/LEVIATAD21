@@ -2,6 +2,8 @@
 
 **Estudante de Tecnólogo em Segurança da Informação** · Python · Automação · Desenvolvimento Web
 
+![Animação institucional discreta: conexão entre áreas de estudo e projetos técnicos](assets/profile-motion.svg)
+
 Estou construindo uma trajetória prática em tecnologia, com interesse em segurança da informação, desenvolvimento de aplicações web e automação. Atualmente, curso Tecnólogo em Segurança da Informação e busco oportunidades de estágio ou posições júnior nas quais eu possa aprender, contribuir e evoluir com responsabilidade.
 
 ## Áreas de interesse
