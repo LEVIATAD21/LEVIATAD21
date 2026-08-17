@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Leviatã — rede de aprendizado e segurança</title>
+  <desc id="desc">Um núcleo luminoso conectado a oito órbitas que representam estudo, desenvolvimento, segurança e automação.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b2634"/>
+      <stop offset="1" stop-color="#102238"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="55%">
+      <stop stop-color="#d8fff7"/>
+      <stop offset="0.23" stop-color="#66f2d0"/>
+      <stop offset="0.62" stop-color="#159d9a"/>
+      <stop offset="1" stop-color="#0a4e66"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#7be4d1" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#sky)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <g fill="none" stroke="#70e7d0" stroke-linecap="round">
+    <path d="M600 160L270 82M600 160L350 226M600 160L475 57M600 160L715 62M600 160L920 90M600 160L880 232M600 160L725 253M600 160L480 267" stroke-opacity=".2" stroke-width="1.5"/>
+    <path d="M600 160L270 82M600 160L350 226M600 160L475 57M600 160L715 62M600 160L920 90M600 160L880 232M600 160L725 253M600 160L480 267" stroke-dasharray="8 20" stroke-opacity=".7" stroke-width="2">
+      <animate attributeName="stroke-dashoffset" values="0;-168" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#78f7db" filter="url(#glow)">
+    <circle cx="270" cy="82" r="7"><animate attributeName="r" values="6;10;6" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="226" r="6"><animate attributeName="r" values="5;9;5" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="475" cy="57" r="5"><animate attributeName="r" values="4;8;4" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="715" cy="62" r="8"><animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="90" r="6"><animate attributeName="r" values="5;9;5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="232" r="7"><animate attributeName="r" values="6;10;6" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="725" cy="253" r="5"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="267" r="7"><animate attributeName="r" values="6;10;6" dur="2.9s" repeatCount="indefinite"/></circle>
+  </g>
+  <g transform="translate(600 160)" filter="url(#glow)">
+    <circle r="58" fill="#2ee9c5" fill-opacity=".14"><animate attributeName="r" values="50;76;50" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle r="42" fill="url(#core)" stroke="#c0fff2" stroke-opacity=".8" stroke-width="1.5"/>
+    <path d="M-18-12v27h36" fill="none" stroke="#072437" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-18-12v27h36" fill="none" stroke="#e7fffa" stroke-opacity=".82" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#70e7d0" fill-opacity=".52">
+    <rect x="55" y="76" width="158" height="3" rx="1.5"/>
+    <rect x="55" y="91" width="102" height="3" rx="1.5"/>
+    <rect x="55" y="106" width="132" height="3" rx="1.5"/>
+    <rect x="55" y="245" width="126" height="3" rx="1.5"/>
+    <rect x="55" y="260" width="171" height="3" rx="1.5"/>
+  </g>
+</svg>

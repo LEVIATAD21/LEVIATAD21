@@ -1,33 +1,44 @@
 # Kawã Silva dos Santos
 
-**Estudante de Tecnólogo em Segurança da Informação** · Python · Automação · Desenvolvimento Web
+<p align="center">
+  <img src="./assets/leviata-network.svg" alt="Leviatã — rede de aprendizado, segurança e automação" width="100%" />
+</p>
 
-![Animação institucional discreta: conexão entre áreas de estudo e projetos técnicos](assets/profile-motion.svg)
+> **Estudante de Tecnólogo em Segurança da Informação** com foco em desenvolvimento seguro, automação e aplicações web.
 
-Estou construindo uma trajetória prática em tecnologia, com interesse em segurança da informação, desenvolvimento de aplicações web e automação. Atualmente, curso Tecnólogo em Segurança da Informação e busco oportunidades de estágio ou posições júnior nas quais eu possa aprender, contribuir e evoluir com responsabilidade.
+Estou construindo uma trajetória prática em tecnologia por meio de projetos versionados, estudo contínuo e documentação clara. Meu interesse está na interseção entre **Segurança da Informação**, **Python**, automação para Linux e desenvolvimento de experiências web úteis e acessíveis.
 
-## Áreas de interesse
+## Em evolução
 
-- Segurança da Informação e boas práticas de desenvolvimento seguro.
-- Python, automação e ferramentas para terminal Linux.
-- Desenvolvimento web com TypeScript, React e Next.js.
-- APIs, bancos de dados relacionais e integração de serviços.
+| Frente | Direção atual |
+|---|---|
+| Segurança da Informação | Fundamentos de desenvolvimento seguro, hardening, análise estática e práticas de segurança aplicadas a projetos próprios. |
+| Desenvolvimento | Python, TypeScript, JavaScript, React, Node.js e integração de APIs. |
+| Automação | Ferramentas locais para terminal Linux, organização de fluxo de trabalho e agentes assistivos. |
+| Leviatã | Projeto privado de agente local para terminal, com memória, auditoria, planejamento e provedores de LLM configuráveis. |
 
 ## Projetos selecionados
 
-| Projeto | Descrição |
+| Projeto | O que representa |
 |---|---|
-| [AI Agents Team](https://github.com/LEVIATAD21/ai-agents-team) | Experimento de agentes de terminal colaborativos e coordenação entre componentes de IA. |
-| [KAWA-AI](https://github.com/LEVIATAD21/manus-clone-ai) | Projeto privado de agente modular para terminal, com suporte a provedores de LLM configuráveis. |
-| [Portfólio](https://github.com/LEVIATAD21/LEVIATAD21.github.io) | Repositório do portfólio e dos projetos web em desenvolvimento. |
-| [eShark](https://github.com/LEVIATAD21/eshark) | Projeto web em JavaScript disponível para estudo e evolução. |
+| [Portfólio técnico](https://leviatad21.github.io/) | Espaço público para acompanhar projetos web e evolução profissional. |
+| [eShark](https://github.com/LEVIATAD21/eshark) | Projeto web em JavaScript para estudo, experimentação e evolução técnica. |
+| [Padaria Xodó](https://github.com/LEVIATAD21/Padaria-xod-) | Experiência digital de pedidos desenvolvida em TypeScript. |
+| [Cardápio](https://github.com/LEVIATAD21/cardapio) | Projeto de cardápio digital em desenvolvimento. |
+| [AI Agents Team](https://github.com/LEVIATAD21/ai-agents-team) | Experimento em Python com agentes de terminal colaborativos e orquestração de tarefas. |
 
 ## Tecnologias em estudo e prática
 
-`Python` · `TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `PostgreSQL` · `Git` · `Linux`
+`Python` · `TypeScript` · `JavaScript` · `React` · `Node.js` · `PostgreSQL` · `Git` · `Linux` · `APIs` · `Segurança de aplicações`
+
+## Princípios de trabalho
+
+Construo de forma incremental, mantendo o que é verificável: requisitos claros, código legível, testes quando aplicáveis, atenção a segurança e interfaces que respeitem acessibilidade, desempenho e contexto de uso.
 
 ## Contato profissional
 
-Estou aberto a oportunidades de aprendizado, colaboração e projetos compatíveis com meu nível atual de formação.
+Estou aberto a oportunidades de estágio, posições júnior e projetos compatíveis com meu momento de formação em tecnologia e Segurança da Informação.
 
-> Este perfil é mantido com foco em projetos reais, aprendizado contínuo e documentação clara.
+<p align="center">
+  <sub>Perfil mantido com foco em projetos reais, aprendizado contínuo e evolução responsável.</sub>
+</p>
