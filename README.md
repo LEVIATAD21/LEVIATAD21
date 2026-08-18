@@ -1,3 +1,5 @@
+![Motion Banner](assets/motion-banner.gif)
+
 # Kawã Silva dos Santos
 
 <p align="center">
