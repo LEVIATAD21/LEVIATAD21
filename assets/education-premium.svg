@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 245" role="img" aria-labelledby="t d">
 <title id="t">Formação e certificações</title><desc id="d">Formação acadêmica e cursos concluídos.</desc>
-<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".62" stop-color="#091827"/><stop offset="1" stop-color="#14122d"/></linearGradient><linearGradient id="e" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".62" stop-color="#091827"/><stop offset="1" stop-color="#14122d"/></linearGradient><linearGradient id="e" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient><filter id="premiumGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>/* premium-motion-v2 */.eduIcon{animation:eduPulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.eduPanel{animation:eduGlow 4s ease-in-out infinite}@keyframes eduPulse{0%,100%{opacity:.7;transform:scale(.95)}50%{opacity:1;transform:scale(1.06)}}@keyframes eduGlow{0%,100%{filter:drop-shadow(0 0 1px #38bdf822)}50%{filter:drop-shadow(0 0 7px #8b5cf644)}}</style></defs>
 <rect width="1120" height="245" rx="24" fill="url(#bg)"/><rect x=".8" y=".8" width="1118.4" height="243.4" rx="23" fill="none" stroke="#273c62"/>
 <g font-family="Segoe UI,Arial,sans-serif">
 <text x="42" y="50" font-size="25" font-weight="800" fill="#f8fafc">FORMAÇÃO E CERTIFICAÇÕES</text><path d="M42 68H1078" stroke="url(#e)" stroke-opacity=".38"/>
-<g transform="translate(42 92)">
-<path d="M0 16l25-11 25 11-25 11z" fill="none" stroke="#38bdf8" stroke-width="2"/><path d="M11 22v17c10 7 20 7 29 0V22" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<g class="eduPanel" transform="translate(42 92)">
+<path class="eduIcon" d="M0 16l25-11 25 11-25 11z" fill="none" stroke="#38bdf8" stroke-width="2"/><path d="M11 22v17c10 7 20 7 29 0V22" fill="none" stroke="#38bdf8" stroke-width="2"/>
 <text x="64" y="20" font-size="16" font-weight="800" fill="#f8fafc">Tecnólogo em Segurança da Informação</text><text x="64" y="43" font-size="12" fill="#94a3b8">UniFatecie • em andamento • conclusão prevista em 2028</text>
 <path d="M548 0V58" stroke="#334155"/>
-<circle cx="588" cy="21" r="14" fill="none" stroke="#a78bfa" stroke-width="2"/><path d="M580 34l-5 15 13-7 13 7-5-15" fill="none" stroke="#a78bfa" stroke-width="2"/>
+<circle class="eduIcon" cx="588" cy="21" r="14" fill="none" stroke="#a78bfa" stroke-width="2"/><path d="M580 34l-5 15 13-7 13 7-5-15" fill="none" stroke="#a78bfa" stroke-width="2"/>
 <text x="620" y="20" font-size="16" font-weight="800" fill="#f8fafc">Hackers do Bem</text><text x="620" y="43" font-size="12" fill="#94a3b8">Nivelamento e Básico • concluídos</text>
 </g>
 <g transform="translate(42 166)"><rect width="1036" height="48" rx="13" fill="#101b2b" stroke="#273c62"/><text x="18" y="20" font-size="13" fill="#cbd5e1">Formação complementar: Banco de Dados • Estrutura de Dados • Sistemas Operacionais</text><text x="18" y="37" font-size="13" fill="#cbd5e1">• Softwares de Segurança da Informação • aprendizado contínuo por projetos e documentação técnica.</text></g>
