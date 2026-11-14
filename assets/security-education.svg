@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+<title id="title">Segurança na prática e formação</title><desc id="desc">Resumo de auditoria de segurança autorizada e formação acadêmica de Kawã Silva.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".6" stop-color="#0b1730"/><stop offset="1" stop-color="#17112e"/></linearGradient><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+<rect width="1120" height="330" rx="24" fill="url(#bg)"/><rect x=".75" y=".75" width="1118.5" height="328.5" rx="23" fill="none" stroke="#273c62"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="42" y="48" font-size="24" font-weight="800" fill="#f8fafc">SEGURANÇA NA PRÁTICA</text>
+<g transform="translate(42 70)"><rect width="1036" height="102" rx="18" fill="#0c1729" stroke="url(#edge)"/><text x="24" y="38" font-size="27" fill="#a78bfa">⬡</text><text x="66" y="36" font-size="18" font-weight="800" fill="#f8fafc">Auditoria de segurança autorizada</text><text x="66" y="61" font-size="13" fill="#cbd5e1">Análise independente de aplicação web de terceiro, a pedido do proprietário.</text><text x="66" y="81" font-size="13" fill="#cbd5e1">Achados documentados e recomendações de correção apresentadas ao responsável.</text><rect x="900" y="24" width="108" height="32" rx="16" fill="#073a2d" stroke="#10b981"/><text x="919" y="45" font-size="12" font-weight="700" fill="#6ee7b7">✓ AUTORIZADA</text></g>
+<text x="42" y="214" font-size="24" font-weight="800" fill="#f8fafc">FORMAÇÃO E CERTIFICAÇÕES</text>
+<g transform="translate(42 236)">
+  <text x="0" y="25" font-size="23" fill="#38bdf8">◇</text><text x="36" y="20" font-size="16" font-weight="800" fill="#f8fafc">Tecnólogo em Segurança da Informação</text><text x="36" y="43" font-size="12" fill="#94a3b8">UniFatecie • em andamento • conclusão prevista em 2028</text>
+  <path d="M548 0V58" stroke="#334155"/>
+  <text x="580" y="25" font-size="23" fill="#a78bfa">◎</text><text x="616" y="20" font-size="16" font-weight="800" fill="#f8fafc">Hackers do Bem</text><text x="616" y="43" font-size="12" fill="#94a3b8">Nivelamento e Básico • concluídos</text>
+</g>
+<text x="42" y="315" font-size="12" fill="#94a3b8">Formação complementar: Banco de Dados • Estrutura de Dados • Sistemas Operacionais • Softwares de Segurança da Informação</text>
+</g>
+</svg>
