@@ -4,7 +4,7 @@
 <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".62" stop-color="#091827"/><stop offset="1" stop-color="#14122d"/></linearGradient>
 <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
 <filter id="g" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
+<filter id="premiumGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>/* premium-motion-v2 */.opCard{animation:opGlow 2.8s ease-in-out infinite}.target{animation:targetPulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes opGlow{0%,100%{filter:drop-shadow(0 0 2px #22d3ee44)}50%{filter:drop-shadow(0 0 10px #22d3ee99)}}@keyframes targetPulse{0%,100%{opacity:.6;transform:scale(.88)}50%{opacity:1;transform:scale(1.12)}}</style></defs>
 <rect width="1120" height="330" rx="24" fill="url(#bg)"/><rect x=".8" y=".8" width="1118.4" height="328.4" rx="23" fill="none" stroke="#203451"/>
 <g font-family="Segoe UI,Arial,sans-serif">
 <g transform="translate(38 35)"><circle cx="14" cy="14" r="10" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M2 36c5-10 19-10 24 0" fill="none" stroke="#22d3ee" stroke-width="2"/><text x="40" y="24" fill="#f8fafc" font-size="25" font-weight="800">Sobre mim</text></g>
@@ -14,8 +14,8 @@
 <text x="38" y="190" fill="#e2e8f0" font-size="15">Trabalho com <tspan font-weight="800" fill="#ffffff">JavaScript, TypeScript, Python, Node.js, React, React Native, bancos de dados e Linux</tspan>.</text>
 <text x="38" y="215" fill="#e2e8f0" font-size="15">Valorizo controle de acesso, validação de dados, testes, documentação e revisão técnica das entregas.</text>
 <g transform="translate(38 245)">
-<rect width="1044" height="58" rx="15" fill="#071c2d" stroke="#22d3ee" stroke-width="1.4"/><rect width="1044" height="58" rx="15" fill="none" stroke="#22d3ee" opacity=".22" filter="url(#g)"/>
-<circle cx="28" cy="29" r="11" fill="none" stroke="#22d3ee" stroke-width="2"/><circle cx="28" cy="29" r="4" fill="#22d3ee"/>
+<rect class="opCard" width="1044" height="58" rx="15" fill="#071c2d" stroke="#22d3ee" stroke-width="1.4"/><rect width="1044" height="58" rx="15" fill="none" stroke="#22d3ee" opacity=".22" filter="url(#g)"/>
+<circle class="target" cx="28" cy="29" r="11" fill="none" stroke="#22d3ee" stroke-width="2"/><circle class="target" cx="28" cy="29" r="4" fill="#22d3ee"/>
 <text x="52" y="24" fill="#f8fafc" font-size="14" font-weight="800">Busco oportunidades 100% remotas de estágio, trainee ou júnior em Segurança da Informação,</text>
 <text x="52" y="43" fill="#f8fafc" font-size="14" font-weight="800">Backend, Frontend ou Full Stack, no Brasil ou em equipes internacionais.</text>
 </g></g></svg>
