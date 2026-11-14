@@ -12,13 +12,14 @@
     .flow{stroke-dasharray:8 12;animation:flow 5s linear infinite}.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.cursor{animation:blink 1s steps(2,start) infinite}
     @keyframes flow{to{stroke-dashoffset:-160}}@keyframes pulse{0%,100%{opacity:.5;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}@keyframes blink{to{opacity:0}}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  .heroPulse{animation:heroPulse 3.2s ease-in-out infinite}.waveMove{stroke-dasharray:14 10;animation:waveMove 10s linear infinite}.terminalGlow{animation:terminalGlow 2.8s ease-in-out infinite}@keyframes heroPulse{0%,100%{opacity:.72}50%{opacity:1}}@keyframes waveMove{to{stroke-dashoffset:-240}}@keyframes terminalGlow{0%,100%{filter:drop-shadow(0 0 2px #22d3ee55)}50%{filter:drop-shadow(0 0 10px #22d3eeaa)}}
   </style>
 </defs>
 <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
 <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
 <circle cx="180" cy="180" r="260" fill="url(#cyanHalo)"/><circle cx="1130" cy="40" r="260" fill="url(#purpleHalo)"/>
-<path d="M0 307C180 250 315 345 505 300S835 248 1280 298" fill="none" stroke="#22d3ee" stroke-opacity=".13" stroke-width="2"/>
-<path d="M0 330C230 286 360 356 560 316S900 280 1280 318" fill="none" stroke="#8b5cf6" stroke-opacity=".11" stroke-width="2"/>
+<path class="waveMove" d="M0 307C180 250 315 345 505 300S835 248 1280 298" fill="none" stroke="#22d3ee" stroke-opacity=".13" stroke-width="2"/>
+<path class="waveMove" d="M0 330C230 286 360 356 560 316S900 280 1280 318" fill="none" stroke="#8b5cf6" stroke-opacity=".11" stroke-width="2"/>
 <g transform="translate(62 70)">
   <path d="M0 11h20l-10 10m10 12H6" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="0" y="55" width="7" height="155" rx="4" fill="url(#accent)"/>
@@ -28,7 +29,7 @@
 </g>
 <g fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity=".65"><path class="flow" d="M560 108h105q38 0 38 38v42q0 26 30 26h42"/><path class="flow" d="M560 259h90q35 0 35-31v-10q0-25 30-25h60"/></g>
 <g fill="#22d3ee" filter="url(#glow)"><circle class="pulse" cx="560" cy="108" r="5"/><circle class="pulse" cx="560" cy="259" r="5"/><circle class="pulse" cx="775" cy="214" r="5"/></g>
-<g transform="translate(790 55)">
+<g class="terminalGlow" transform="translate(790 55)">
   <rect width="420" height="246" rx="18" fill="#071521" stroke="#155e75" stroke-width="1.5"/>
   <path d="M0 45h420" stroke="#164e63"/>
   <circle cx="22" cy="23" r="5" fill="#fb7185"/><circle cx="41" cy="23" r="5" fill="#fbbf24"/><circle cx="60" cy="23" r="5" fill="#34d399"/>
@@ -42,5 +43,5 @@
     <text x="24" y="232" fill="#34d399">learning, building, documenting...</text><rect class="cursor" x="326" y="218" width="8" height="17" rx="1" fill="#22d3ee"/>
   </g>
 </g>
-<text x="65" y="329" font-family="monospace" font-size="11" letter-spacing="1.4" fill="#64748b">TYPESCRIPT • PYTHON • NODE.JS • REACT • LINUX • DEVSECOPS</text>
+<text class="heroPulse" x="65" y="329" font-family="monospace" font-size="11" letter-spacing="1.4" fill="#64748b">TYPESCRIPT • PYTHON • NODE.JS • REACT • LINUX • DEVSECOPS</text>
 </svg>
