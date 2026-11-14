@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 250" role="img" aria-labelledby="t d">
+<title id="t">Vamos conversar</title><desc id="d">Contato profissional e links de Kawã Silva.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1"><stop stop-color="#06131e"/><stop offset=".62" stop-color="#081b2e"/><stop offset="1" stop-color="#171035"/></linearGradient>
+<linearGradient id="e" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<filter id="g" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1120" height="250" rx="24" fill="url(#bg)"/><rect x=".8" y=".8" width="1118.4" height="248.4" rx="23" fill="none" stroke="url(#e)"/>
+<path d="M0 218C170 182 285 246 460 210s330-40 660 9" fill="none" stroke="#22d3ee" stroke-opacity=".12"/><path d="M680 238c150-60 250-15 440-55" fill="none" stroke="#8b5cf6" stroke-opacity=".14"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<path d="M42 52l25-14-9 29-7-8-9 7z" fill="none" stroke="#22d3ee" stroke-width="2"/><text x="84" y="58" font-size="26" font-weight="800" fill="#f8fafc">Vamos conversar</text>
+<text x="42" y="92" font-size="14" fill="#cbd5e1">Aberto a oportunidades remotas de desenvolvimento e segurança, colaboração técnica e projetos de software.</text>
+<g transform="translate(42 120)">
+<rect width="138" height="48" rx="12" fill="#08b8df" stroke="#67e8f9"/><text x="28" y="30" font-size="14" font-weight="800" fill="#03131a">in  LinkedIn</text>
+<g transform="translate(152 0)"><rect width="138" height="48" rx="12" fill="#0e1828" stroke="#64748b"/><text x="31" y="30" font-size="14" font-weight="800" fill="#e2e8f0">↗ Portfólio</text></g>
+<g transform="translate(304 0)"><rect width="156" height="48" rx="12" fill="#0e1828" stroke="#64748b"/><text x="25" y="30" font-size="14" font-weight="800" fill="#e2e8f0">● Repositórios</text></g>
+</g>
+<g transform="translate(855 68)"><path d="M12 90h150l18-78H30z" fill="#0d1b2c" stroke="url(#e)" stroke-width="2"/><path d="M0 104h192" stroke="#22d3ee" stroke-width="3"/><text x="70" y="61" font-family="monospace" font-size="33" font-weight="800" fill="#38bdf8">&lt;/&gt;</text></g>
+<path d="M42 202H430M690 202H1078" stroke="#22d3ee" stroke-opacity=".35"/><text x="453" y="207" font-size="12" fill="#94a3b8">Software com propósito • Segurança com evidências • Aprendizado contínuo</text>
+</g></svg>
