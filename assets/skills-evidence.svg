@@ -1,26 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
-<title id="title">Tecnologia em prática</title><desc id="desc">Presença das tecnologias em 17 repositórios com código e contagem de arquivos por extensão. As barras representam presença no portfólio e não proficiência.</desc>
-<defs>
-<linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".62" stop-color="#0b1730"/><stop offset="1" stop-color="#151336"/></linearGradient>
-<linearGradient id="bar" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-</defs>
-<rect width="1120" height="520" rx="24" fill="url(#bg)"/><rect x=".75" y=".75" width="1118.5" height="518.5" rx="23" fill="none" stroke="#273c62"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 470" role="img" aria-labelledby="t d">
+<title id="t">Tecnologia em prática</title><desc id="d">Presença das tecnologias em 17 repositórios com código. As barras medem presença no portfólio, não proficiência.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111d"/><stop offset=".62" stop-color="#0b1730"/><stop offset="1" stop-color="#151336"/></linearGradient><linearGradient id="bar" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+<rect width="1120" height="470" rx="24" fill="url(#bg)"/><rect x=".8" y=".8" width="1118.4" height="468.4" rx="23" fill="none" stroke="#273c62"/>
 <g font-family="Segoe UI,Arial,sans-serif">
-<text x="42" y="52" fill="#f8fafc" font-size="25" font-weight="800">TECNOLOGIA EM PRÁTICA</text><text x="42" y="78" fill="#7dd3fc" font-size="13">snapshot 14/11/2026 • 17 repositórios com código • presença por extensão</text>
-<g transform="translate(770 36)">
-  <rect width="140" height="76" rx="14" fill="#0d1b2e" stroke="#1d4ed8"/><text x="18" y="31" font-size="25" font-weight="800" fill="#38bdf8">17</text><text x="18" y="54" font-size="12" fill="#cbd5e1">projetos com código</text>
-  <g transform="translate(154 0)"><rect width="140" height="76" rx="14" fill="#0d1b2e" stroke="#6d28d9"/><text x="18" y="31" font-size="25" font-weight="800" fill="#a78bfa">439</text><text x="18" y="54" font-size="12" fill="#cbd5e1">arquivos TypeScript</text></g>
+<g transform="translate(38 33)"><rect x="0" y="10" width="4" height="18" rx="2" fill="#22d3ee"/><rect x="9" y="4" width="4" height="24" rx="2" fill="#38bdf8"/><rect x="18" width="4" height="28" rx="2" fill="#8b5cf6"/><text x="40" y="25" font-size="25" font-weight="800" fill="#f8fafc">Tecnologia em prática</text></g>
+<path d="M38 72H1082" stroke="url(#edge)" stroke-opacity=".35"/>
+<g transform="translate(38 100)">
+<text x="0" y="16" font-size="15" fill="#e2e8f0">TypeScript</text><rect x="135" y="2" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="2" width="187" height="17" rx="9" fill="url(#bar)"/><text x="620" y="16" font-size="14" font-weight="800" fill="#67e8f9">7/17</text>
+<text x="0" y="59" font-size="15" fill="#e2e8f0">Python</text><rect x="135" y="45" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="45" width="161" height="17" rx="9" fill="url(#bar)"/><text x="620" y="59" font-size="14" font-weight="800" fill="#67e8f9">6/17</text>
+<text x="0" y="102" font-size="15" fill="#e2e8f0">JavaScript</text><rect x="135" y="88" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="88" width="294" height="17" rx="9" fill="url(#bar)"/><text x="620" y="102" font-size="14" font-weight="800" fill="#67e8f9">11/17</text>
+<text x="0" y="145" font-size="15" fill="#e2e8f0">SQL</text><rect x="135" y="131" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="131" width="214" height="17" rx="9" fill="url(#bar)"/><text x="620" y="145" font-size="14" font-weight="800" fill="#67e8f9">8/17</text>
+<text x="0" y="188" font-size="15" fill="#e2e8f0">HTML</text><rect x="135" y="174" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="174" width="214" height="17" rx="9" fill="url(#bar)"/><text x="620" y="188" font-size="14" font-weight="800" fill="#67e8f9">8/17</text>
+<text x="0" y="231" font-size="15" fill="#e2e8f0">CSS</text><rect x="135" y="217" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="217" width="214" height="17" rx="9" fill="url(#bar)"/><text x="620" y="231" font-size="14" font-weight="800" fill="#67e8f9">8/17</text>
+<text x="0" y="274" font-size="15" fill="#e2e8f0">Shell</text><rect x="135" y="260" width="455" height="17" rx="9" fill="#1d2c43"/><rect x="135" y="260" width="187" height="17" rx="9" fill="url(#bar)"/><text x="620" y="274" font-size="14" font-weight="800" fill="#67e8f9">7/17</text>
 </g>
-<g transform="translate(42 126)">
-  <text x="0" y="17" font-size="15" fill="#e2e8f0">TypeScript</text><rect x="140" y="2" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="2" width="206" height="18" rx="9" fill="url(#bar)"/><text x="665" y="17" font-size="15" font-weight="700" fill="#67e8f9">7/17</text><text x="725" y="17" font-size="14" fill="#cbd5e1">439 arquivos</text>
-  <text x="0" y="65" font-size="15" fill="#e2e8f0">Python</text><rect x="140" y="50" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="50" width="176" height="18" rx="9" fill="url(#bar)"/><text x="665" y="65" font-size="15" font-weight="700" fill="#67e8f9">6/17</text><text x="725" y="65" font-size="14" fill="#cbd5e1">100 arquivos</text>
-  <text x="0" y="113" font-size="15" fill="#e2e8f0">JavaScript</text><rect x="140" y="98" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="98" width="324" height="18" rx="9" fill="url(#bar)"/><text x="665" y="113" font-size="15" font-weight="700" fill="#67e8f9">11/17</text><text x="725" y="113" font-size="14" fill="#cbd5e1">69 arquivos</text>
-  <text x="0" y="161" font-size="15" fill="#e2e8f0">SQL</text><rect x="140" y="146" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="146" width="235" height="18" rx="9" fill="url(#bar)"/><text x="665" y="161" font-size="15" font-weight="700" fill="#67e8f9">8/17</text><text x="725" y="161" font-size="14" fill="#cbd5e1">30 arquivos</text>
-  <text x="0" y="209" font-size="15" fill="#e2e8f0">HTML</text><rect x="140" y="194" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="194" width="235" height="18" rx="9" fill="url(#bar)"/><text x="665" y="209" font-size="15" font-weight="700" fill="#67e8f9">8/17</text><text x="725" y="209" font-size="14" fill="#cbd5e1">24 arquivos</text>
-  <text x="0" y="257" font-size="15" fill="#e2e8f0">CSS</text><rect x="140" y="242" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="242" width="235" height="18" rx="9" fill="url(#bar)"/><text x="665" y="257" font-size="15" font-weight="700" fill="#67e8f9">8/17</text><text x="725" y="257" font-size="14" fill="#cbd5e1">11 arquivos</text>
-  <text x="0" y="305" font-size="15" fill="#e2e8f0">Shell</text><rect x="140" y="290" width="500" height="18" rx="9" fill="#1d2c43"/><rect x="140" y="290" width="206" height="18" rx="9" fill="url(#bar)"/><text x="665" y="305" font-size="15" font-weight="700" fill="#67e8f9">7/17</text><text x="725" y="305" font-size="14" fill="#cbd5e1">9 arquivos</text>
+<g transform="translate(715 101)">
+<g><rect width="330" height="66" rx="14" fill="#0d1b2e" stroke="#2563eb"/><text x="22" y="30" font-size="24" font-weight="900" fill="#38bdf8">17</text><text x="70" y="27" font-size="13" font-weight="700" fill="#f8fafc">Projetos com código</text><text x="70" y="46" font-size="11" fill="#94a3b8">17 de 18 repositórios analisados</text></g>
+<g transform="translate(0 78)"><rect width="330" height="66" rx="14" fill="#0d1b2e" stroke="#6d28d9"/><text x="22" y="30" font-size="24" font-weight="900" fill="#a78bfa">439</text><text x="90" y="27" font-size="13" font-weight="700" fill="#f8fafc">Arquivos TypeScript</text><text x="90" y="46" font-size="11" fill="#94a3b8">maior presença por extensão</text></g>
+<g transform="translate(0 156)"><rect width="330" height="66" rx="14" fill="#0d1b2e" stroke="#0e7490"/><text x="22" y="30" font-size="24" font-weight="900" fill="#22d3ee">6</text><text x="70" y="27" font-size="13" font-weight="700" fill="#f8fafc">GitHub Actions</text><text x="70" y="46" font-size="11" fill="#94a3b8">projetos com workflows versionados</text></g>
+<g transform="translate(0 234)"><rect width="330" height="66" rx="14" fill="#0d1b2e" stroke="#7c3aed"/><text x="22" y="30" font-size="24" font-weight="900" fill="#c084fc">4</text><text x="70" y="27" font-size="13" font-weight="700" fill="#f8fafc">Dockerfile</text><text x="70" y="46" font-size="11" fill="#94a3b8">projetos com containerização</text></g>
 </g>
-<path d="M42 450H1078" stroke="#334155"/><text x="42" y="480" font-size="14" fill="#cbd5e1">6 projetos com GitHub Actions • 4 com Dockerfile</text>
-<text x="42" y="504" font-size="12" fill="#64748b">Métricas de portfólio, não porcentagens de domínio. Projetos podem usar várias tecnologias e compartilhar código.</text>
-</g>
-</svg>
+<path d="M38 416H1082" stroke="#334155"/><text x="38" y="441" font-size="12" fill="#94a3b8">Snapshot 14/11/2026 • métricas de portfólio, não porcentagens de domínio ou experiência em anos.</text>
+<text x="38" y="459" font-size="11" fill="#64748b">Um projeto pode usar várias tecnologias; testes e configurações também entram na contagem.</text>
+</g></svg>
