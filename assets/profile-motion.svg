@@ -1,80 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-  <title id="title">Kawã Silva — Desenvolvedor de Software</title>
-  <desc id="desc">Banner animado em tons escuros e ciano com uma janela de terminal, conexões e o foco profissional em backend, desenvolvimento full-stack e fundamentos de segurança da informação.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset=".55" stop-color="#0b2031"/>
-      <stop offset="1" stop-color="#10172d"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#67e8f9"/>
-      <stop offset="1" stop-color="#22d3ee"/>
-    </linearGradient>
-    <radialGradient id="halo">
-      <stop stop-color="#22d3ee" stop-opacity=".23"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#7dd3fc" stroke-opacity=".055"/>
-    </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <style>
-      .flow { stroke-dasharray: 7 12; animation: flow 5s linear infinite; }
-      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.5s ease-in-out infinite; }
-      .pulse2 { animation-delay: .7s; }
-      .cursor { animation: blink 1s steps(2, start) infinite; }
-      .terminalLine { animation: reveal 5s ease-in-out infinite; }
-      @keyframes flow { to { stroke-dashoffset: -152; } }
-      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(.86); } 50% { opacity: 1; transform: scale(1.13); } }
-      @keyframes blink { to { opacity: 0; } }
-      @keyframes reveal { 0%,12% { opacity: .25; } 22%,80% { opacity: 1; } 100% { opacity: .25; } }
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-    </style>
-  </defs>
-  <rect width="1280" height="360" rx="26" fill="url(#background)"/>
-  <rect width="1280" height="360" rx="26" fill="url(#grid)"/>
-  <circle cx="185" cy="180" r="220" fill="url(#halo)"/>
-  <circle cx="1110" cy="45" r="190" fill="#7c3aed" opacity=".07"/>
-  <path d="M0 315 C220 270 310 350 510 302 S840 260 1280 310" stroke="#22d3ee" stroke-opacity=".11" fill="none" stroke-width="2"/>
-  <g transform="translate(66 78)">
-    <rect x="0" y="0" width="8" height="165" rx="4" fill="url(#accent)"/>
-    <text x="32" y="57" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="1.5" fill="#f0f9ff">KAWÃ SILVA</text>
-    <text x="34" y="93" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6" fill="#67e8f9">DESENVOLVEDOR DE SOFTWARE JÚNIOR</text>
-    <text x="34" y="127" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#c6d9e8">Backend · Full-Stack · Segurança da Informação</text>
-    <text x="34" y="164" font-family="monospace" font-size="13" fill="#7f9bb3">BUILD  /  LEARN  /  IMPROVE</text>
+<title id="title">Kawã Silva — Full Stack, Backend e Segurança da Informação</title>
+<desc id="desc">Banner premium em tons escuros, ciano, azul e roxo, com terminal e foco em desenvolvimento full stack, backend e segurança.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b14"/><stop offset=".55" stop-color="#071827"/><stop offset="1" stop-color="#14112c"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <radialGradient id="cyanHalo"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <radialGradient id="purpleHalo"><stop stop-color="#8b5cf6" stop-opacity=".2"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#67e8f9" stroke-opacity=".035"/></pattern>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .flow{stroke-dasharray:8 12;animation:flow 5s linear infinite}.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.cursor{animation:blink 1s steps(2,start) infinite}
+    @keyframes flow{to{stroke-dashoffset:-160}}@keyframes pulse{0%,100%{opacity:.5;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}@keyframes blink{to{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+<rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+<circle cx="180" cy="180" r="260" fill="url(#cyanHalo)"/><circle cx="1130" cy="40" r="260" fill="url(#purpleHalo)"/>
+<path d="M0 307C180 250 315 345 505 300S835 248 1280 298" fill="none" stroke="#22d3ee" stroke-opacity=".13" stroke-width="2"/>
+<path d="M0 330C230 286 360 356 560 316S900 280 1280 318" fill="none" stroke="#8b5cf6" stroke-opacity=".11" stroke-width="2"/>
+<g transform="translate(62 70)">
+  <path d="M0 11h20l-10 10m10 12H6" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="0" y="55" width="7" height="155" rx="4" fill="url(#accent)"/>
+  <text x="32" y="96" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="800" letter-spacing="1" fill="#f8fafc">KAWÃ <tspan fill="#60a5fa">SILVA</tspan></text>
+  <text x="34" y="134" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#dbeafe">Desenvolvedor Full Stack • Backend • Segurança da Informação</text>
+  <text x="34" y="177" font-family="monospace" font-size="13" letter-spacing="2" fill="#7dd3fc">BUILD / LEARN / SECURE / AUTOMATE</text>
+</g>
+<g fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity=".65"><path class="flow" d="M560 108h105q38 0 38 38v42q0 26 30 26h42"/><path class="flow" d="M560 259h90q35 0 35-31v-10q0-25 30-25h60"/></g>
+<g fill="#22d3ee" filter="url(#glow)"><circle class="pulse" cx="560" cy="108" r="5"/><circle class="pulse" cx="560" cy="259" r="5"/><circle class="pulse" cx="775" cy="214" r="5"/></g>
+<g transform="translate(790 55)">
+  <rect width="420" height="246" rx="18" fill="#071521" stroke="#155e75" stroke-width="1.5"/>
+  <path d="M0 45h420" stroke="#164e63"/>
+  <circle cx="22" cy="23" r="5" fill="#fb7185"/><circle cx="41" cy="23" r="5" fill="#fbbf24"/><circle cx="60" cy="23" r="5" fill="#34d399"/>
+  <text x="82" y="28" font-family="monospace" font-size="12" fill="#93c5fd">kawa@dev:~/profile</text>
+  <g font-family="monospace" font-size="14">
+    <text x="24" y="80" fill="#22d3ee">$</text><text x="42" y="80" fill="#e2e8f0">whoami</text>
+    <text x="24" y="106" fill="#bfdbfe">Kawã Silva</text>
+    <text x="24" y="145" fill="#22d3ee">$</text><text x="42" y="145" fill="#e2e8f0">focus --current</text>
+    <text x="24" y="171" fill="#bfdbfe">full-stack | security | automation</text>
+    <text x="24" y="208" fill="#22d3ee">$</text><text x="42" y="208" fill="#e2e8f0">status</text>
+    <text x="24" y="232" fill="#34d399">learning, building, documenting...</text><rect class="cursor" x="326" y="218" width="8" height="17" rx="1" fill="#22d3ee"/>
   </g>
-  <g transform="translate(760 58)">
-    <rect width="448" height="244" rx="16" fill="#081521" stroke="#28536c" stroke-width="1.5"/>
-    <path d="M0 45H448" stroke="#28536c" stroke-width="1"/>
-    <circle cx="23" cy="23" r="5" fill="#fb7185"/>
-    <circle cx="41" cy="23" r="5" fill="#fbbf24"/>
-    <circle cx="59" cy="23" r="5" fill="#34d399"/>
-    <text x="82" y="28" font-family="monospace" font-size="12" fill="#92adbf">kawa@dev: ~/profile</text>
-    <g font-family="monospace" font-size="14">
-      <text x="25" y="80" fill="#67e8f9">$</text>
-      <text x="43" y="80" fill="#e5f3fc">whoami</text>
-      <text x="25" y="108" fill="#a8c3d7">Kawã Silva</text>
-      <text x="25" y="145" fill="#67e8f9">$</text>
-      <text x="43" y="145" fill="#e5f3fc">focus --current</text>
-      <text x="25" y="173" fill="#a8c3d7">backend | full-stack | security</text>
-      <text x="25" y="210" fill="#67e8f9">$</text>
-      <text x="43" y="210" fill="#e5f3fc">status</text>
-      <text x="25" y="232" fill="#34d399" class="terminalLine">learning, building, documenting</text>
-      <rect class="cursor" x="297" y="218" width="8" height="17" rx="1" fill="#67e8f9"/>
-    </g>
-  </g>
-  <g fill="none" stroke="#67e8f9" stroke-width="2" stroke-opacity=".75">
-    <path class="flow" d="M550 103H650Q692 103 692 145V197Q692 219 716 219H760"/>
-    <path class="flow" d="M550 258H630Q670 258 670 232V211Q670 190 695 190H760"/>
-  </g>
-  <g fill="#67e8f9" filter="url(#glow)">
-    <circle class="pulse" cx="550" cy="103" r="5"/>
-    <circle class="pulse pulse2" cx="550" cy="258" r="5"/>
-    <circle class="pulse" cx="760" cy="219" r="5"/>
-  </g>
-  <text x="68" y="328" font-family="monospace" font-size="11" letter-spacing="1.1" fill="#7298ad">PYTHON · TYPESCRIPT · LINUX · AUTOMATION</text>
+</g>
+<text x="65" y="329" font-family="monospace" font-size="11" letter-spacing="1.4" fill="#64748b">TYPESCRIPT • PYTHON • NODE.JS • REACT • LINUX • DEVSECOPS</text>
 </svg>
