@@ -1,0 +1,46 @@
+{
+  "snapshot": "2026-11-14",
+  "repositories_scanned": 18,
+  "code_repositories": 17,
+  "method": "Default-branch Git tree; file extension groups; includes tests/configuration; excludes generated/vendor/build/assets directories; not GitHub Linguist or proficiency scores; repositories counted independently, including related variants.",
+  "excluded_directory_pattern": "(^|/)(node_modules|vendor|dist|build|coverage|.next|.expo|venv|.venv|__pycache__|assets|public/assets)(/|$)",
+  "languages": [
+    {
+      "name": "TypeScript",
+      "repositories": 7,
+      "files": 439
+    },
+    {
+      "name": "Python",
+      "repositories": 6,
+      "files": 100
+    },
+    {
+      "name": "JavaScript",
+      "repositories": 11,
+      "files": 69
+    },
+    {
+      "name": "SQL",
+      "repositories": 8,
+      "files": 30
+    },
+    {
+      "name": "HTML",
+      "repositories": 8,
+      "files": 24
+    },
+    {
+      "name": "CSS",
+      "repositories": 8,
+      "files": 11
+    },
+    {
+      "name": "Shell",
+      "repositories": 7,
+      "files": 9
+    }
+  ],
+  "github_actions_repositories": 6,
+  "dockerfile_repositories": 4
+}
