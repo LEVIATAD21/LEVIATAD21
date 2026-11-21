@@ -19,8 +19,11 @@ Sou Kawã Silva dos Santos, estudante de Segurança da Informação na UniFateci
 - [Padaria Xodó (demo)](https://leviatad21.github.io/padaria/): site de padaria e confeitaria com vitrine e pedidos.
 - [mesa. Cardápio (demo)](https://leviatad21.github.io/cardapio/): cardápio digital com filtros e sacola.
 - [mesa. Sistema (demo)](https://leviatad21.github.io/sistema/): cardápio digital com painel de gestão.
+- [NEXUS Delivery](https://github.com/LEVIATAD21/NEXUS-Delivery): app de delivery com React Native/Expo e backend NestJS + Prisma + PostgreSQL.
+- [Leviatã](https://github.com/LEVIATAD21/leviata): agente de IA para terminal em Python, com política de execução e testes.
+- [AI Agents Team](https://github.com/LEVIATAD21/ai-agents-team): agentes de terminal em Python que debatem antes de responder, com modo seguro.
 
-Lola Aço Inox, NEXUS Delivery, FairMove e Agentes de IA são projetos privados, disponíveis para demonstração em entrevista.
+Lola Aço Inox e FairMove são projetos privados de clientes, disponíveis para demonstração em entrevista.
 
 ## Contato
 
